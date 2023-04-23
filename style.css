@@ -1,27 +1,3 @@
-#wrapper {
-  width: 1000px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section {
-  width: 700px;
-  height: auto;
-  float: left;
-}
-
-aside {
-  width: 300px;
-  float: right;
-}
-
-footer {
-  width: 1000px;
-  height: auto;
-  float: left;
-}
-
 h1 {
   font-weight: bold;
   font-size: 26px;
@@ -32,14 +8,6 @@ h2 {
   font-weight: bold;
   font-size: 22px;
   color: aqua;
-}
-
-hgroup > h1 {
-  margin-bottom: 3px;
-}
-
-hgroup > h2 {
-  margin-top: 0px;
 }
 
 .content {

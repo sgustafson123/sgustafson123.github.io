@@ -1,45 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a
-      class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler"
-      type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-      </button> <div class="collapse navbar-collapse"
-      id="navbarSupportedContent"> <ul class="navbar-nav mr-auto"> <li
-      class="nav-item active"> <a class="nav-link" href="#">Home <span
-      class="sr-only">(current)</span></a> </li> <li class="nav-item"> <a
-      class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a
-      class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-      role="button" data-toggle="dropdown" aria-haspopup="true"
-      aria-expanded="false"> Dropdown </a> <div class="dropdown-menu"
-      aria-labelledby="navbarDropdown"> <a class="dropdown-item"
-      href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
-      <div class="dropdown-divider"></div> <a class="dropdown-item"
-      href="#">Something else here</a> </div> </li> <li class="nav-item"> <a
-      class="nav-link disabled" href="#">Disabled</a> </li> </ul> <form
-      class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
-      type="search" placeholder="Search" aria-label="Search"> <button class="btn
-      btn-outline-success my-2 my-sm-0" type="submit">Search</button> </form>
-      </div> </nav>
-    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="./iostyle.css" />
     <style>
       .content {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(4, 150px);
-        gap: 5px;
+        gap: 5px, white;
       }
       div {
-        background-color: whitesmoke;
+        background-color: lightcyan;
         padding: 30px;
         text-align: center;
-      }
-      div:nth-of-type(odd) {
-        background-color: lightblue;
       }
       .one {
         grid-column: 1 / 3;
@@ -48,10 +27,6 @@
       .two {
         grid-column: 3 / 9;
         grid-row: 1 / 3;
-      }
-      .three {
-        grid-column: 3 / 9;
-        grid-row: 3;
       }
       .four {
         grid-column: 3 / 6;
@@ -64,7 +39,67 @@
     </style>
   </head>
   <body>
-    <main class="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="content">
       <div class="one">
         <div class="card text-bg-light mb-3" style="max-width: 18rem">
           <div class="card-header">Sonja L. Gustafson, M.M.</div>
@@ -80,17 +115,13 @@
           <img
             src="20190802_192722.jpg"
             alt="Lake Superior"
-            width="400px"
+            width="500px"
             height="300px"
           />
         </div>
       </div>
-      <div class="three">Biography</div>
-      <div
-        href="https://docs.google.com/document/d/e/2PACX-1vSHsAXsgI1cCaX1CgwlTb0SwLhh02vyytgDsbmgUm_ynqWxWrqLE6_fL-chA0nxN4dIhusY25Uj7-Mq/pub"
-      ></div>
       <div class="four">Video</div>
       <div class="five">Projects</div>
-    </main>
+    </div>
   </body>
 </html>

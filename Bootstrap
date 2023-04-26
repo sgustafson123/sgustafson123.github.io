@@ -1,0 +1,7 @@
+<div class="one">
+        <div class="card text-bg-light mb-3" style="max-width: 18rem">
+          <div class="card-header">Sonja L. Gustafson, M.M.</div>
+          <img src="20230418_104428.jpg" alt="Sonja Gustafson" width="100px" class="center" />
+          <div class="card-body">
+            <h3 class="card-title">Portfolio</h3>
+            <p class="card-text">MIT xPro Certificate in Coding</p>

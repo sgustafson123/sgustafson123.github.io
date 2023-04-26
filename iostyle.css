@@ -1,3 +1,22 @@
 body {
   font-family: "Figtree", sans-serif;
 }
+a:link {
+  color: white;
+  font-weight: bold;
+}
+
+a:visited {
+  color: green;
+  font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+  font-weight: bold;
+}
+
+a:active {
+  color: blueviolet;
+  font-weight: bold;
+}

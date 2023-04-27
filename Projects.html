@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>M.I.T. xPro 2023 Coding Projects</title>
-    <h1><mark>M.I.T. xPro 2023 Coding Projects</mark></h1>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="./iostyle.css" />
   </head>
   <style>
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 125px);
+        gap: 5px, white;
+      }
     div {
-      background-color: azure;
+      background-color: lightblue;
+      padding: 5px
     }
   </style>
   <body>
-    <h1>Sonja's Repositories</h1>
-    <a href="https://github.com/sgustafson123?tab=repositories">Github</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"></a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+         <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+         <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+         <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+      </svg>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <u class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://sgustafson123.Github.io"
+               >Home <span class="sr-only">(current)</span></a
+             >
+           </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/1PBrsZnwYppU9tjkfPynp2fQ0mCTguyix/view?usp=sharing"
+              >Biography</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./Projects.html"
+               >Projects</a
+            >
+           </li>
+           <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./ContactMe.html"
+              >Contact Me</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.exploreminnesota.com/"
+              >Visit Minnesota</a
+             >
+          </li>
+       </form>
+      </div>
+    </nav>
+    <div class="card">
+      <div class="card-body">
+        <h1>Sonja's Repositories</h1>
+        <a href="https://github.com/sgustafson123?tab=repositories">Github</a>
+      </div>
+    </div>
     <br />
-    <h2>PacMen Factory</h2>
+    <div class="card">
+      <div class="card-body">
+        <h2>PacMen Factory</h2>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="16"
@@ -35,11 +97,14 @@
     </svg>
     <p>Experience the fun of creating multiple PacMan figures on the screen!</p>
     <a href="https://github.com/sgustafson123/PacMen-Factory"
-      >PacMen Repository</a
-    >
+      >PacMen Repository</a>
+      </div>
+    </div>
     <br />
     <br />
-    <h2>Eyeball Exercise</h2>
+    <div class="card">
+      <div class="card-body">
+        <h2>Eyeball Exercise</h2>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="16"
@@ -57,9 +122,12 @@
     </svg>
     <p>Use your mouse to make the pupils move around inside the eyes.</p>
     <a href="https://github.com/sgustafson123/Eyes">Eyes Repository</a>
+      </div>
+    </div>
     <br />
-    <br />
-    <h2>Real-Time Bus Tracker</h2>
+    <div class="card">
+      <div class="card-body">
+        <h2>Real-Time Bus Tracker</h2>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="16"
@@ -77,11 +145,13 @@
     </svg>
     <p>Watch as the pin tracks the bus route on the map in real time.</p>
     <a href="https://github.com/sgustafson123/RealTimeBus"
-      >Real-Time Bus Repository</a
-    >
+      >Real-Time Bus Repository</a>
+      </div>
+    </div>
     <br />
-    <br />
-    <h2>Other Items</h2>
+    <div class="card">
+      <div class="card-body">
+        <h2>Other Items</h2>
     <a href="https://getbootstrap.com/docs/4.0/components/navbar/">
       View Bootstrap code for the navigation bar.
     </a>
@@ -93,9 +163,12 @@
     <a href="https://fonts.google.com/share?selection.family=Figtree">
       Get Figtree font from Google.
     </a>
+      </div>
+    </div>
     <br />
-    <br />
-    <a href="./index.html">Back to the homepage</a>
+    <div class="card">
+      <div class="card-body">
+        <a href="./index.html">Back to the homepage</a>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="16"
@@ -108,5 +181,7 @@
         d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"
       />
     </svg>
+      </div>
+    </div>
   </body>
 </html>

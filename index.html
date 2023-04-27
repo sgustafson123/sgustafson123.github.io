@@ -81,7 +81,12 @@
               >Visit Minnesota</a
             >
           </li>
-        </form>
+          <form action="" id="visitorForm">
+            <h5>Site Visitor Log</h5>
+            <input type="text" id="name" class="form-control" style="display: inline;"
+             placeholder="Enter your Name">
+            <button type="submit">Submit</button>
+          </form>
       </div>
     </nav>
     <div class="content">
@@ -132,23 +137,4 @@
         </div>
     </div>
   </body>
-  <script>
-    function myFunction() {
-    document.getElementById("dropdown-menu").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("navbarDropdown");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-  </script>
 </html>

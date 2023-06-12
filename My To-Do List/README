@@ -1,0 +1,18 @@
+#To-Do List Project
+This was a project for MIT Womens Certificate in Coding - January 2023 Cohort.  The goal was to start to learn React.
+
+##Coding
+Initial coding was done by Carolina Viero.  The assignment was to add additional coding to customize the look and list items.
+
+##Use
+To run:  In GitBash, start a React session using "my-app".
+
+To add an item:  Type the new item into the textbox, then click the Submit button.
+To mark an item as completed:  Click the green and white checkbox button next to the item.
+To delete an item:  Click the trash button next to the item.
+
+##Improvements
+In the future, I hope to add database capabilities to the app to allow UI items to be saved.  Currently, only hard-coded options will show on the list each time the app is started.
+
+###License
+Base coding for this list was created by MIT.  All rights reserved.

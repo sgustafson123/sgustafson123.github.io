@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Figtree", sans-serif;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(sverige-sweden.png);
+  background-color: lightblue;
+}
+
+code {
+  font-family: "Nunito", sans-serif;
+}
+
+background {
+  background-color: aquamarine;
+}
